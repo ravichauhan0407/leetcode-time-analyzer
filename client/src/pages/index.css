@@ -1,0 +1,243 @@
+.login-container {
+  border: 5px solid rgb(117, 109, 109, 0.1);
+  border-radius: 30px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header
+{
+     z-index: 10000;
+}
+
+.content-center {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  text-align: left;
+}
+.submit-btn {
+  background-color: #00d09c;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 5px;
+  height: 35px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 300px) {
+  .login-container {
+    border: 2px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
+}
+.ant-menu-horizontal,
+.ant-menu-item::after {
+  border: none !important;
+  color: white;
+  font-size: large;
+}
+.ant-menu-item:hover {
+  color: white;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+}
+.header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 50%;
+  color: white;
+  font-weight: 300;
+  font-size: xx-large;
+}
+.menu {
+  width: 100% !important;
+}
+
+.time-input {
+  width: 300px !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 35px;
+  box-shadow: none;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media only screen and (max-width: 500px) {
+  
+  .time-input {
+    width: 300px !important;
+    border-color: #96c8da;
+    box-shadow: 0 2px 3px 0;
+  }
+  .buttons {
+    width: 275px !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  .timer-btn {
+    width: 70px;
+  }
+}
+.numbers {
+  width: 400px;
+  font-size: large;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.buttons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-btn {
+  background-color: #00d09c;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.ant-btn {
+  color: white !important;
+  font-weight: bold;
+}
+
+.graph-body {
+  margin: 20px 20px 20px 20px;
+  height: 100vh;
+  border: 1px solid #96c8da;
+  padding: 20px;
+  display: flex;
+  
+  padding-right: 0px;
+}
+
+.graph {
+  width: 70%;
+  overflow: auto;
+  background-color: white;
+  margin: 10px;
+  border: 1px dashed red;
+}
+.graph::-webkit-scrollbar {
+     width: 0px;
+   }
+
+.graph-width
+{
+     width: 1000px;
+     height:100%;
+}
+
+.right-box {
+
+  border-radius: 10px;
+  width: 30%;
+  /* min-width: 300px; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-inputs {
+  width: 300px;
+
+  border: 1px solid #96c8da !important;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.add-btn
+{
+     color: white;
+}
+.input-fields {
+  margin-bottom: 30px;
+  width: 300px !important;
+}
+
+.plot-graph {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .right-box
+  {
+     width: 35%;
+  }
+  .graph
+  {
+    width: 65%;   
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+     .right-box
+     {
+        width: 40%;
+     }
+     .graph
+     {
+       width: 60%;   
+     }
+   }
+   @media only screen and (max-width: 900px) {
+     .graph-body
+     {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 8fr 2fr;
+          width: 100%;
+     }
+     .graph
+     {
+         grid-row-start: 1;
+          width: 100%;
+          height: 100%;
+     }
+     .right-box
+     {
+        
+          width: 100%;
+     }
+     .plot-graph
+     {
+          margin-top: 20px;
+          height: 60px;
+     }
+   }
