@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/70810745/210882433-e6816f21-d8db-4cb6-
 Clone the project
 
 ```bash
-  git clone https://github.com/ravichauhan0407/nearByevents-
+  git clone https://github.com/ravichauhan0407/leetcode-time-analyzer.git
 ```
 
 Go to the project directory
