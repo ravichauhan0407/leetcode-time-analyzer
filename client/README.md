@@ -1,70 +1,66 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Leetcode Time Analyzer
 
-## Available Scripts
+The Leetcode Time Analyzer is a web app that allows users to track and analyze the time they spend solving Leetcode coding challenges. With this app, users can add data about the time they take to solve a particular question, along with tags and the difficulty of the question. The app then generates bar charts that visualize this data, allowing users to see how their performance on Leetcode varies by difficulty and by tag. The charts are also customizable, allowing users to filter the data by tag to see their performance on specific types of questions.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+To see a demo of the app in action, please click 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run Locally
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/ravichauhan0407/nearByevents-
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd my-project
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm run start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage/Examples
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To use the Leetcode Time Analyzer, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Open the app in your web browser at http://localhost:3000.
 
-### Code Splitting
+- Click on the "Login" button in the navigation bar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Enter your login credentials and click on the "Submit" button.
 
-### Analyzing the Bundle Size
+- Once you are logged in, you will see a "Add Entry" button in the right corner of the navigation bar. Click on this button to add a new entry.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Enter the details of the Leetcode question you solved, including the time you took to solve it, the tags for the question, and the difficulty of the question.
 
-### Making a Progressive Web App
+- Click on the "Save" button to save the entry to the database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- To view the generated charts, click on the "Plot Chart" button. The charts will show the data you have entered, including a bar chart of your performance by difficulty and a bar chart of your performance by tag.
 
-### Advanced Configuration
+- To customize the charts, use the dropdown  to select which tags you want to include in the charts. The charts will update to show only the data for the selected tags.
+## Technologies
+The Leetcode Time Analyzer was built using the following technologies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- MongoDB: NoSQL database used to store the data entered by users
+- Express: Backend web framework for building the API
+- React: Frontend JavaScript library for building the user interface
+- Node.js: JavaScript runtime for running the backend server and building the API
+- Recharts: React library for generating charts and graphs
