@@ -8,6 +8,12 @@ The Leetcode Time Analyzer is a web app that allows users to track and analyze t
 To see a demo of the app in action, please click 
 
 
+https://user-images.githubusercontent.com/70810745/210882433-e6816f21-d8db-4cb6-936e-084a054e6887.mp4
+
+
+
+
+
 
 ## Run Locally
 
